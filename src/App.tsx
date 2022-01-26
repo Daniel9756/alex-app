@@ -46,7 +46,7 @@ function App() {
           justifyContent: "center",
         }}
       >
-        <Carousel.Item style={{ marginLeft: 10,  marginRight: 10, paddingRight: 40  }}>
+        <Carousel.Item style={{ marginLeft: 10,paddingLeft: 20,  marginRight: 10, paddingRight: 40  }}>
           <Group1 />
         </Carousel.Item>
         <Carousel.Item>
