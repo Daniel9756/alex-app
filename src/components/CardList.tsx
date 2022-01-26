@@ -9,7 +9,7 @@ const useStyles = makeStyles()((theme) => {
       textAlign: "left",
       display: "flex",
       justifyContent: "left",
-      // alignItems: "center",
+      alignItems: "center",
       // marginLeft: 40,
     },
     paragraph: {
@@ -31,9 +31,9 @@ function CardList(props: any) {
   const { text, icon } = props;
   return (
     <div className={classes.memberlist}>
-      <h4 className={classes.paragraph}>{text}</h4>
+      <h5 className={classes.paragraph}>{text}</h5>
       <p className={classes.icon}>
-        {icon} {icon} {icon} {icon}
+        {icon} {icon} {icon}  {icon} 
       </p>
      
     </div>

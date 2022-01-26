@@ -12,13 +12,14 @@ const useStyles = makeStyles()((theme) => {
       display: "grid",
       justifyContent: "center",
       gridTemplateColumns: "repeat(auto-fill, minmax(270px, 1fr))",
-      // gap: "5px",
-      marginLeft: "120px",
+    //   gap: "4px",
+      marginLeft: "120px"
+
     },
   };
 });
 
-export default function Group1() {
+export default function Group3() {
   const { classes } = useStyles();
 
   const plans = [
@@ -26,31 +27,31 @@ export default function Group1() {
       id: "1",
       icon: <AiFillStar style={{ fontSize: 14 }} />,
       btn: <CustomButton />,
-      state: "CUBA",
+      state: "CHICAGO",
       text1: "One root Account",
       text2: "No joint Account",
       text3: "One free Single Class",
-      url: "https://images.unsplash.com/photo-1589401901631-356b7ae2f5d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2l0eSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      url: "https://images.unsplash.com/photo-1417716146732-918825b83fa0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
     },
     {
       id: "2",
       icon: <AiFillStar style={{ fontSize: 14 }} />,
       btn: <CustomButton />,
-      state: "NEW YORK",
+      state: "BERLIN",
       text1: "One root Account",
       text2: "No joint Account",
       text3: "One free Single Class",
-      url: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      url: "https://images.unsplash.com/photo-1462007895615-c8c073bebcd8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
     },
     {
       id: "3",
       icon: <AiFillStar style={{ fontSize: 14 }} />,
       btn: <CustomButton />,
-      state: "PARIS",
+      state: "ROME",
       text1: "One root Account",
       text2: "No joint Account",
       text3: "One free Single Class",
-      url: "https://images.unsplash.com/photo-1444723121867-7a241cacace9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2l0eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      url: "https://images.unsplash.com/photo-1471039497385-b6d6ba609f9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjF8fGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
     },
   ];
   return (

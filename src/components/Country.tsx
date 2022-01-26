@@ -85,9 +85,8 @@ import { AiFillStar } from "react-icons/ai";
 const useStyles = makeStyles()((theme) => {
   return {
     card: {
-      width: "270px",
+      width: "240px",
       height: "450px",
-      margin: theme.spacing(0.5),
       elevation: "0",
       textAlign: 'center',
     },
@@ -97,7 +96,7 @@ const useStyles = makeStyles()((theme) => {
       textTransform: "capitalize",
       marginTop: theme.spacing(1),
       opacity: "0.5",
-      color: "#e84118",
+      color: "#b71540",
     },
     btn: {     
       textAlign: "center",
